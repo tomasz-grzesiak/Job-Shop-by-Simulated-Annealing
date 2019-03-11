@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1544702763 source:c:\users\oem\desktop\studia\iii\ok\simulatedannealing\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"include/Graph.h"
+
+1544702731 c:\users\oem\desktop\studia\iii\ok\simulatedannealing\include\graph.h
+	<set>
+	<iostream>
+	<random>
+	<utility>
+	<math.h>
+	<chrono>
+	"Parser.h"
+
+1544523502 source:c:\users\oem\desktop\studia\iii\ok\simulatedannealing\simulated_annealing.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<utility>
+	<limits>
+	<string.h>
+	<ctime>
+	<chrono>
+	<cstdlib>
+
+1544702731 source:c:\users\oem\desktop\studia\iii\ok\simulatedannealing\src\graph.cpp
+	<algorithm>
+	<fstream>
+	"../include/Graph.h"
+
+1544627821 c:\users\oem\desktop\studia\iii\ok\simulatedannealing\include\parser.h
+	<fstream>
+	<vector>
+	<utility>
+	<limits>
+
+1544699882 source:c:\users\oem\desktop\studia\iii\ok\simulatedannealing\src\parser.cpp
+	"../include/Parser.h"
+
