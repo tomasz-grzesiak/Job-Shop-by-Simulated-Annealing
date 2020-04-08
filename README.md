@@ -1,1 +1,1 @@
-This is a fully working Code::Blocks project, developed to solve Job-Shop optimization by the Simulated Annealing method.
+Project developed as assignment for university 'Combinatorial optimization' class. It approaches common Job-Shop optimization problem by using simulated annealing method.
