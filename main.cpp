@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "include/Graph.h"
+#include "simulated_annealing.cpp"
 
 using namespace std;
 
@@ -31,7 +32,7 @@ int main(const int argc, const char *argv[])
     }
     srand(time(NULL));
     Graph g(inst);
-    //g.print();
+    g.print();
     auto t1 = chrono::system_clock::now();
     g.simulatedAnnealing((double)atof(argv[3]), (double)atof(argv[4]), atoi(argv[5]));
     auto t2 = chrono::system_clock::now();
